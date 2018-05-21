@@ -1,0 +1,34 @@
+1   a: de big o is een eenheid waarin je aangeeft hoelang het kost voor je algorimte om de worst case uit te werken
+    b: slechste
+    c: O(N) omdat het altijd overal doorheen zal gaan
+    d: O(N^2) het wordt telkesn exponentieel meer werk
+    e: O(N^2) als de rij compleet verkeerd staat zal de bubble sort N^2 stappen uitvoeren
+
+2
+    a: O(N)
+    b: o(N)
+    c: O(N)
+    d: O(N*N^1/2)
+    e: O(10)
+
+3
+    a: elke stap gaat de pointer naar het volgende getal in de reeks totdat het juiste getal gevonden is
+    b: functie(getal,getallenreeks){
+    stap = 0
+    zolang(getal niet getallenreeks[stap] is){
+    print(stap)
+    stap++
+    }
+    }
+    c: 7 stappen
+
+4
+    a: de lijst moet gesorteerd zijn
+    b: bij binair zoeken wordt de hele tijd de helft van de lijst gepakt en dan wordt er gekeken of het getal wat gezocht wordt kleiner of groter is dan het getal in het midden en daarna wordt weer het midden gepakt etc.
+    c: 3 stappen
+    e: binair
+    f: linear
+    g: binair omdat die in de meeste gevallen het snelst is
+
+5
+    a:
