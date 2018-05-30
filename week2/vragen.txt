@@ -1,0 +1,11 @@
+1
+    a: omdat het een entry in een lijst is
+    b: nee dan moeten het Integer's zijn inplaats van int
+    c: in dit geval is het object element een Object dat alle soorten objecten kan opslaan dus ook een object Auto
+    d: als je een classe deze interface laat impelementen dan wordt er afgedwongen dat er een compareTo methode wordt gemaakt deze compareTo methode moet zelf ingevuld worden en hoe deze methode is ingevuld bepaald hoe java deze objecten met elkaar vergelijkt
+    e: als het next element null is weet je dat het de laatset entry is
+    f: ja je kan door de lijst heen ietereren omdat en stoppen bij het laatste element
+    g: 0
+
+2
+    a:
