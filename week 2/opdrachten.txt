@@ -1,0 +1,13 @@
+1   A: 10 keer iets printen aflopend bij 1 van 10
+    e: de methode moet zichzelf aanroepen en er meot een stopconditie in de methode staan
+    f: kon niks vinden of bedenken
+2   a: aantal schijven
+    b: namen van de torens
+3   a: nummers
+    b: 5 4 3 2 1 1 2 3 4 5
+4   a:geddan
+    b: 4 keer
+    c: 5
+    d: n
+5   e: O(nLog(n)) omdat de verdeling door 2 kunnen worden gedeeld
+echter moet toch alle elementen een keer worden doorloopen

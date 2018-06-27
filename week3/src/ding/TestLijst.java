@@ -7,8 +7,8 @@ public class TestLijst
 	{
 	   Lijst mijnLijst = new Lijst();
 
-//	   mijnLijst.addLast (new Werknemer ("Jan"));
-//       mijnLijst.addLast (new Werknemer ("Piet"));
+	   mijnLijst.addLast (new Werknemer ("Jan"));
+       mijnLijst.addLast (new Werknemer ("Piet"));
 	   mijnLijst.addFirst (new Werknemer ("Klaas"));
        mijnLijst.addFirst (new Werknemer ("Henk"));
    

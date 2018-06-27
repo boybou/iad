@@ -59,17 +59,19 @@ public class RijBewerkingen
 	// met de 'bubble-sort'-methode
 	public void bubble ()
 	{
-//		// nog afmaken ...
-//		int ondgrens;
-//		int loper;
-//		for (ondgrens = 1; ondgrens < rij.length; ondgrens++)
-//			for (loper = rij.length - 1; .....................; loper--)
-//			{
-//				if (rij[loper - 1] > rij[loper])
-//				{
-//				   // verwissel rij[loper – 1] en rij [loper]
-//				}
-//			}
+		// nog afmaken ...
+		int ondgrens;
+		int loper;
+		for (ondgrens = 1; ondgrens < rij.length; ondgrens++)
+			for (loper = rij.length - 1; loper >= ondgrens; loper--)
+			{
+				if (rij[loper - 1] > rij[loper])
+				{
+					   char tempValue = rij[loper-1];
+					   rij[loper-1] = rij[loper];
+					   rij[loper] = tempValue;
+				}
+			}
 	}
 
 	

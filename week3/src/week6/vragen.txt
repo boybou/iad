@@ -1,0 +1,25 @@
+1   boom 1: a: binaire expressieboom
+            b: de X knoop
+            c:3
+            d: 2
+            e 3
+    boom2 : a: een gerichte binaire boom
+            b: de C knoop
+            ec: 3
+            d: 2
+            e: 3
+    boom3: a: binaire boom
+            b: A knoo
+            c: 5
+            d: 2
+            e: 3
+
+    boom4: a: binaire zoekboom
+            b: E knoop
+            c: 4
+            d: 2
+            e: 3
+   3 d: 1+3*6-2
+   4a: OAKBTURES
+   4b: KABOUTERS
+   4c: KBAUESRTO

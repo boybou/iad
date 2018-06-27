@@ -31,15 +31,23 @@ public class Lijst
 	
 	public Object removeFirst ()
 	{
-		size--;
-		if(header.next == null){
-			header = null;
-			tail = null;
+		Object tempObject = null;
+		if(size != 0){
+			size--;
+			if(header.next == null){
+				tempObject = header.element;
+				header = null;
+				tail = null;
 
-			return null;
+				return tempObject;
+			}
+			tempObject = header.element;
+			header = header.next;
+
+			return tempObject;
 		}
-        header = header.next;
-        return header;
+		return tempObject;
+
 	}
 
 	public Object getFirst ()
@@ -75,6 +83,7 @@ public class Lijst
     {
 		Entry tempTail = header;
     	Object tempObj;
+    	int tempSize = size;
 		if(size == 1){
     		tempObj = header.element;
     		header = null;
@@ -86,9 +95,9 @@ public class Lijst
     		header.next = null;
 		}
 		else if(size > 2){
-			while(size > 2){
+			while(tempSize > 2){
 				tempTail = tempTail.next;
-				size--;
+				tempSize--;
 			}
 			tempObj = tempTail.next.element;
 			tempTail.next = null;
@@ -104,11 +113,17 @@ public class Lijst
     }
 
 
-
+	public int getSize() {
+		return size;
+	}
 
 	public Object getLast ()
     {
-        return tail.element;
+    	if(tail!= null){
+			return tail.element;
+		}
+		return null;
+
     }
 	
 	

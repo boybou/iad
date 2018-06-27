@@ -15,6 +15,11 @@ public class TestMain {
 		RijBewerkingen test2 = new RijBewerkingen(rij2);
 		System.out.println(test2.binair_zoeken('5'));
 
+		char [] rij3 = new char[] {'4','3','5','2','6','1'};
+		RijBewerkingen test3 = new RijBewerkingen(rij3);
+		test3.bubble();
+		test3.print();
+
 
 
 	}

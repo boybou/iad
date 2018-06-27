@@ -1,0 +1,22 @@
+1   a: een stack kan je zien als een stapel waar je elemente op legt en alleen het bovenste element van af kan halen
+    b: een queue is een wachtrij je kan entrys toevoegen aan de queue je kan kijken wele entry aan de voorkant staat en je kan de voorste entry dequeuen
+    c: FIFO staat voor First In First Out dit is het geval bij een queue
+    LIFO staat voo Last In First Out dit houdt in de entry die er als laatste bij is gekomen gaat er als eerste uit
+    d: een stack stapelt entry en maakt gebruikt van LIFO en een queue maakt een wachtijr en gebruikt FIFO
+2:
+4
+       a: er zijn geen haakjes nodig om de berekening uit te voeren
+       b: 523+*
+       c: 1082*-
+
+5
+    a: cijfer push je tot er een operator is en dan pop je de bovenste 2 getallen het eerste getal komt rechts van de operator en het tweede gepopte getal komt links de uitkomst push je weer op de stack
+    b:
+    if nummer:
+        push(nummer)
+    elif operator:
+        tempnummer1 = pop()
+        tempnummer2 = pop()
+        push(tempnummer2 operator tepmnummer1)
+    else:
+        return pop()

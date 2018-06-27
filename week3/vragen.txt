@@ -7,5 +7,8 @@
     f: ja je kan door de lijst heen ietereren omdat en stoppen bij het laatste element
     g: 0
 
-2
-    a:
+3
+    a: een null entry die naar zichzelf verwijst
+    b: omdat er nu vanaf het laatste element terug gegaan kan worden naar de header
+
+
